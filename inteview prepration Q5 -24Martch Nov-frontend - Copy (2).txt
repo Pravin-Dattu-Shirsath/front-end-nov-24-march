@@ -1,0 +1,16 @@
+Q5)How to submit a form using JavaScript by clicking a link?
+
+Ans-
+
+Let's see the JavaScript code to submit the form by clicking the link.
+
+<form name="myform" action="index.php">  
+Search: <input type='text' name='query' />  
+<a href="javascript: submitform()">Search</a>  
+</form>  
+<script type="text/javascript">  
+function submitform()  
+{  
+  document.myform.submit();  
+}  
+</script> 

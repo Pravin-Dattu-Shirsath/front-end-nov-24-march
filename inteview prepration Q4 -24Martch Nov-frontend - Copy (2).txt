@@ -1,0 +1,5 @@
+Q4)How can we detect OS of the client machine using JavaScript?
+
+Ans-
+
+The navigator.appVersion string can be used to detect the operating system on the client machine.

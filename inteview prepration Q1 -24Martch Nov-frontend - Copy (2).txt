@@ -1,0 +1,13 @@
+Q1)What is negative infinity?
+
+Ans-
+
+Negative Infinity is a number in JavaScript which can be derived by dividing the negative number by zero. For example:
+
+var num=-5;  
+function display()  
+{  
+  document.writeln(num/0);  
+}  
+display();  
+//expected output: -Infinity  
